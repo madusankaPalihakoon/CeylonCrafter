@@ -8,6 +8,7 @@
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
 
     <!-- Include Bootstrap JavaScript (and its dependencies) -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -15,7 +16,6 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
-
 </head>
 <body>
     <div class="nav-background">
@@ -94,44 +94,27 @@
             </div>
         </nav>
         
-    </div>
+        <div class="package-details">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
 
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img src="../assets/img/img1.jpg" alt="" srcset="">
+                        <div class="card swiper-slide">
+                            <div class="package-heading">
+                                <h2>Adventure</h2>
+                            </div>
+                            <div class="package-img-container">
+                                <img class="package-img" src="../assets/img/adventure.jpg" alt="">
+                            </div>
+                            <button class="btn btn-primary package-btn">Details</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-slide">
-                <img src="../assets/img/img2.jpg" alt="" srcset="">
-            </div>
-            <div class="swiper-slide">
-                <img src="../assets/img/img3.jpg" alt="" srcset="">
-            </div>
-            <!-- Add more slides as needed -->
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
     </div>
-    <script>
-    var mySwiper = new Swiper('.swiper-container', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-        // Additional options as needed
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
-
+    <script src="../assets/js/package.img.action.js"></script>
 </body>
 </html>

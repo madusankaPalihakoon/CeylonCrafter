@@ -1,14 +1,30 @@
-var mySwiper = new Swiper('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    // Additional options as needed
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+var swiper = new Swiper(".slide-content", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 5000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
+    disableOnInteraction: false, // Allow manual navigation to stop autoplay
+  },
+  breakpoints: {
+    "@0.00": {
+      slidesPerView: 1,
+      spaceBetween: 10,
     },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    "@0.75": {
+      slidesPerView: 2,
+      spaceBetween: 20,
     },
+    "@1.00": {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    "@1.50": {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  }
 });
