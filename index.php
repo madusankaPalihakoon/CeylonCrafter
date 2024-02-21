@@ -36,10 +36,6 @@
         </button>
     </div>
 
-    <!-- <li>Package 1: Cultural Heritage Tour</li>
-    <li>Package 2: Beach Bliss Getaway</li>
-    <li>Package 3: Hill Country Adventure</li> -->
-
     <div class="card" id="packages">
         <div class="row w-100">
             <div class="col w-50" id="package-img">
@@ -49,7 +45,7 @@
                 <h2>Our Packages</h2>
                 <hr class="heading-hr">
                 <p>Welcome to our diverse range of packages, thoughtfully designed to cater to various categories and preferences. Explore the possibilities as you create your personalized package to suit your unique needs. Click the button below to discover our selection and embark on a tailored experience just for you. Your perfect package awaits!</p>
-                <a href="#" role="btn" class="btn btn-outline-primary" id="card-btn">View Packages</a>
+                <a href="pages/packages" role="btn" class="btn btn-outline-primary" id="card-btn">View Packages</a>
             </div>
         </div>
     </div>
@@ -65,7 +61,7 @@
                     <li>Beach Escapes</li>
                     <li>Adventure Expeditions</li>
                 </ul>
-                <a href="#" role="btn" class="btn btn-outline-primary" id="card-btn">View Categories</a>
+                <a href="pages/categories" role="btn" class="btn btn-outline-primary" id="card-btn">View Categories</a>
             </div>
             <div class="col w-50" id="catagories-img">
                 <img class="card-img" src="assets/img/mountain.jpg" alt="" srcset="">
@@ -82,7 +78,7 @@
                 <h2>Create Own Package</h2>
                 <hr class="heading-hr">
                 <p>Craft your personalized adventure through the enchanting landscapes of Sri Lanka by creating your very own travel package. Tailor the experience to meet your specific preferences and requirements. From choosing the must-visit destinations to handpicking unique activities, this is your opportunity to design a journey that reflects your individual style of exploration. Start building your dream itinerary today and let us bring your customized Sri Lankan adventure to life!</p>
-                <a href="#" role="btn" class="btn btn-outline-primary" id="card-btn">Create</a>
+                <a href="pages/create" role="btn" class="btn btn-outline-primary" id="card-btn">Create</a>
             </div>
         </div>
     </div>

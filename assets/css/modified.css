@@ -70,3 +70,42 @@ footer {
     justify-content: center;
     place-items: center;
 }
+
+.nav-item {
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-item {
+        margin-left: 0;
+    }
+}
+
+.nav-package{
+    background-color: rgba(237, 232, 236, 0.7);
+}
+
+.nav-background{
+    background-image: url('../img/bgImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Optional: Customize styles */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
