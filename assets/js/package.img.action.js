@@ -1,12 +1,12 @@
-var swiper = new Swiper(".slide-content", {
-  slidesPerView: 1,
-  spaceBetween: 10,
+var swiper = new Swiper(".package-swiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   autoplay: {
-    delay: 3000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
+    delay: 2000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
     disableOnInteraction: false, // Allow manual navigation to stop autoplay
   },
   breakpoints: {

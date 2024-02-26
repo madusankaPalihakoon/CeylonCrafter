@@ -95,51 +95,28 @@
         </nav>
         
         <div class="packages-details">
-            <div class="slide-container swiper">
-                <div class="slide-content">
-                    <div class="card-wrapper swiper-wrapper">
-
-                        <div class="card package-data swiper-slide">
-                            <a href="#">
-                            <figure class="figure package-figure">
-                                <h2 class="package-caption">Nature</h2>
-                                <img src="../assets/img/natural.jpg" class="figure-img img-fluid rounded" alt="nature">
-                            </figure>
-                            </a>
-                        </div>
-
-                        <div class="card package-data swiper-slide">
-                            <figure class="figure package-figure">
-                                <h2 class="package-caption">Adventure</h2>
-                                <img src="../assets/img/adventure.jpg" class="figure-img img-fluid rounded" alt="nature">
-                            </figure>
-                        </div>
-
-                        <div class="card package-data swiper-slide">
-                            <figure class="figure package-figure">
-                                <h2 class="package-caption">Cultural</h2>
-                                <img src="../assets/img/cultural.jpg" class="figure-img img-fluid rounded" alt="nature">
-                            </figure>
-                        </div>
-
-                        <div class="card package-data swiper-slide">
-                            <figure class="figure package-figure">
-                                <h2 class="package-caption">Wild Life</h2>
-                                <img src="../assets/img/wildlife.jpg" class="figure-img img-fluid rounded" alt="nature">
-                            </figure>
-                        </div>
-
-                        <div class="card package-data swiper-slide">
-                            <figure class="figure package-figure">
-                                <img src="../assets/img/historical.jpg" class="figure-img img-fluid rounded" alt="nature">
-                            </figure>
-                        </div>
-
+            <div class="swiper package-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../assets/img/natural.jpg" alt="" srcset="">
                     </div>
+                    <div class="swiper-slide">
+                        <img src="../assets/img/adventure.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../assets/img/wildlife.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+
     </div>
     <script src="../assets/js/package.img.action.js"></script>
 </body>
