@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Packages</title>
-    <link rel="stylesheet" href="../assets/css/modified.css">
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/modified.css">
 
     <!-- Include Bootstrap JavaScript (and its dependencies) -->
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -94,19 +94,45 @@
             </div>
         </nav>
         
-        <div class="package-details">
+        <div class="packages-details">
             <div class="slide-container swiper">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
 
-                        <div class="card swiper-slide">
-                            <div class="package-heading">
-                                <h2>Adventure</h2>
-                            </div>
-                            <div class="package-img-container">
-                                <img class="package-img" src="../assets/img/adventure.jpg" alt="">
-                            </div>
-                            <button class="btn btn-primary package-btn">Details</button>
+                        <div class="card package-data swiper-slide">
+                            <a href="#">
+                            <figure class="figure package-figure">
+                                <h2 class="package-caption">Nature</h2>
+                                <img src="../assets/img/natural.jpg" class="figure-img img-fluid rounded" alt="nature">
+                            </figure>
+                            </a>
+                        </div>
+
+                        <div class="card package-data swiper-slide">
+                            <figure class="figure package-figure">
+                                <h2 class="package-caption">Adventure</h2>
+                                <img src="../assets/img/adventure.jpg" class="figure-img img-fluid rounded" alt="nature">
+                            </figure>
+                        </div>
+
+                        <div class="card package-data swiper-slide">
+                            <figure class="figure package-figure">
+                                <h2 class="package-caption">Cultural</h2>
+                                <img src="../assets/img/cultural.jpg" class="figure-img img-fluid rounded" alt="nature">
+                            </figure>
+                        </div>
+
+                        <div class="card package-data swiper-slide">
+                            <figure class="figure package-figure">
+                                <h2 class="package-caption">Wild Life</h2>
+                                <img src="../assets/img/wildlife.jpg" class="figure-img img-fluid rounded" alt="nature">
+                            </figure>
+                        </div>
+
+                        <div class="card package-data swiper-slide">
+                            <figure class="figure package-figure">
+                                <img src="../assets/img/historical.jpg" class="figure-img img-fluid rounded" alt="nature">
+                            </figure>
                         </div>
 
                     </div>

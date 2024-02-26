@@ -6,7 +6,7 @@ var swiper = new Swiper(".slide-content", {
     clickable: true,
   },
   autoplay: {
-    delay: 5000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
+    delay: 3000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
     disableOnInteraction: false, // Allow manual navigation to stop autoplay
   },
   breakpoints: {

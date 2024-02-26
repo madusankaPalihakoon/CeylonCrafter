@@ -97,54 +97,49 @@ footer {
     height: 100vh;
 }
 
-.package-details{
-    margin-top: 15vh;
-    min-height: 50vh;
+.packages-details{
     width: 90vw;
+    height: 390px;
+    background-color: rgba(237, 232, 236, 0.7);
     margin-inline: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slide-container{
-    max-width: 1120px;
-    width: 100%;
-    padding: 40px 0;
-    background-color: rgba(237, 232, 236, 0.5);
+    margin-top: 20vh;
     border-radius: 0.7rem;
+    padding: 5px;
 }
 
-.slide-content{
-    margin: 0 40px;
-    padding: 10px;
+.card-wrapper{
+    gap: 5px;
 }
-.package-img-container{
-    width: 250px;
+
+.package-data{
+    display: block;
+    width: 280px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.package-figure{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    position: relative;
+    text-align: center;
+    color: #eee;
+    font-weight: 800;
+}
+
+.figure-img{
+    object-fit: cover;
+    width: 280px;
     height: 350px;
 }
 
-.package-img-container .package-img{
+.package-caption{
+    position: absolute;
+    font-weight: 900;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.7rem;
-}
-
-.card{
-    text-align: center;
-}
-
-.package-heading{
     top: 0;
-    position: absolute;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    border: 1px solid red;
-}
-
-.package-btn{
-    position: absolute;
-    bottom: 0;
+    background-color: rgba(15, 15, 15, 0.5);
+    border-radius: 0.5rem;
 }
