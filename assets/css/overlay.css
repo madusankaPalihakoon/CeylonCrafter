@@ -1,0 +1,38 @@
+.picture-bg-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    height: 100%;
+}
+
+.content-container {
+    position: relative;
+    z-index: 2; /* Make sure the content is above the overlay and image */
+}
+
+.text-container {
+    color: white; /* Set text color as needed */
+}
+
+.gradient-overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    z-index: 1; /* Overlay should be below the content but above the image */
+}
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    z-index: 0; /* Image should be at the bottom */
+}

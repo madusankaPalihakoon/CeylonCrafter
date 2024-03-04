@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CeylonCrafter Travel Planning Agency</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/icon/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/icon/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icon/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icon/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/icon/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/icon/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/modified.css">
-    <link rel="stylesheet" href="assets/css/overlay.css">
-    <link rel="stylesheet" href="assets/css/footer.style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/modified.css">
+    <link rel="stylesheet" href="../assets/css/overlay.css">
+    <link rel="stylesheet" href="../assets/css/footer.style.css">
 
     <!-- Include Bootstrap JavaScript (and its dependencies) -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body class="home-body" style="background-color: rgb(229,243,255);">
@@ -34,7 +34,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-dark p-0 m-0">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img class="logo" src="assets/logo/logo-transparent.png" alt="CeylonCrafter Logo" height="90"></a>
+                    <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo/logo-transparent.png" alt="CeylonCrafter Logo" height="90"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -76,7 +76,7 @@
 
             <div class="container hero-container">
                 <div class="text-logo">
-                    <img src="assets/logo/logo-transparent-text.png" alt="CeylonCrafter Logo" height="100%">
+                    <img src="../assets/logo/logo-transparent-text.png" alt="CeylonCrafter Logo" height="100%">
                 </div>
                 <div class="text-hero">
                     <p class="hero-text">where every journey is a masterpiece meticulously crafted to unveil the beauty of Sri Lanka</p>
@@ -121,7 +121,7 @@
 
         <div class="container-fluid welcome-overlay-gradient"></div>
         <div class="container-fluid welcome-overlay text-center">
-            <img src="assets/img/Sigiriya-1.jpg" alt="welcome-sri lanka" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="../assets/img/Sigiriya-1.jpg" alt="welcome-sri lanka" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
     </div>
 
@@ -149,7 +149,7 @@
 
             <div class="card quality-card">
                 <div class="quality-img">
-                    <img src="assets/icon/qualities/team.png" alt="team image">
+                    <img src="../assets/icon/qualities/team.png" alt="team image">
                 </div>
                 <div class="quality-txt">
                     <p>Passionate Team</p>
@@ -158,7 +158,7 @@
 
             <div class="card quality-card">
                 <div class="quality-img">
-                    <img src="assets/icon/qualities/fresh.png" alt="fresh image">
+                    <img src="../assets/icon/qualities/fresh.png" alt="fresh image">
                 </div>
                 <div class="quality-txt">
                     <p>Fresh Perspectives</p>
@@ -167,7 +167,7 @@
 
             <div class="card quality-card">
                 <div class="quality-img">
-                    <img src="assets/icon/qualities/money.png" alt="money image">
+                    <img src="../assets/icon/qualities/money.png" alt="money image">
                 </div>
                 <div class="quality-txt">
                     <p>Competitive Pricing</p>
@@ -176,7 +176,7 @@
 
             <div class="card quality-card">
                 <div class="quality-img">
-                    <img src="assets/icon/qualities/24n7.png" alt="fresh image">
+                    <img src="../assets/icon/qualities/24n7.png" alt="fresh image">
                 </div>
                 <div class="quality-txt">
                     <p>24/7 Support</p>
@@ -193,13 +193,13 @@
                     <div class="card marketing-package">
                         <h2 class="marketing-package-heading">Travel Packages</h2>
                         <p class="marketing-package-text">Embark on a journey of discovery with our meticulously crafted travel packages ranging from 2 to 7 days. Whether you're a thrill-seeker, a nature enthusiast, a culture connoisseur, or someone seeking a romantic escape, we have a package tailored just for you. Each package is a carefully designed tapestry of experiences, blending the essence of adventure, romance, nature, delectable cuisine, and cultural richness. Let us guide you through the best of Sri Lanka, creating memories that unfold like chapters of a captivating story.</p>
-                        <a class="link-btn" href="page/packages"><button class="btn see-more-btn" type="button">See More Information <i class="bi bi-caret-right" id="info-caret"></i></button></a>
+                        <a class="link-btn" href="../page/packages"><button class="btn see-more-btn" type="button">See More Information <i class="bi bi-caret-right" id="info-caret"></i></button></a>
                     </div>
 
                     <div class="card marketing-package">
                         <h2 class="marketing-package-heading">Travel Categories</h2>
                         <p class="marketing-package-text">Dive into the heart of Sri Lanka's diverse landscapes and experiences with our unique travel categories. Discover the adventurer in you with our thrilling adventure category, ignite the flames of romance in our romantic escapes, connect with nature in serene surroundings, tantalize your taste buds with our culinary explorations, and immerse yourself in the vibrant tapestry of Sri Lanka's rich culture. For the ultimate personalized journey, create your own package by handpicking your preferred locations. Your travel experience is not just a trip; it's a narrative waiting to be written, and we're here to help you craft the perfect story.</p>
-                        <a class="link-btn" href="page/categories"><button class="btn see-more-btn" type="button">See More Information <i class="bi bi-caret-right" id="info-caret"></i></button></a>
+                        <a class="link-btn" href="../page/categories"><button class="btn see-more-btn" type="button">See More Information <i class="bi bi-caret-right" id="info-caret"></i></button></a>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@
     </main>
 
     <footer>
-        <div class="container-fluid picture-bg-container-footer">
+        <div class="container-fluid picture-bg-container">
             <div class="container-fluid content-container">
                 <div class="container text-container">
                     <!-- text content -->
@@ -252,7 +252,7 @@
                     </div>
 
                     <div class="container-fluid footer-copyright">
-                        <img src="assets/logo/logo-transparent-text.png" alt="" srcset="">
+                        <img src="../assets/logo/logo-transparent-text.png" alt="" srcset="">
                         <p>&copy; 2024 CeylonCrafter. All rights reserved.</p>
                     </div>
                 
@@ -260,14 +260,14 @@
             </div>
 
             <div class="container-fluid gradient-overlay-container"></div>
-            <img src="assets/img/footer-bg.jpg" alt="overlay img" class="overlay-img">
+            <img src="../assets/img/train.jpg" alt="overlay img" class="overlay-img">
         </div>
     </footer>
 
     <!-- custom js -->
-    <script src="assets/js/img.action.js"></script>
-    <script src="assets/js/home.button.action.js"></script>
-    <script src="assets/js/home.img.action.js"></script>
+    <script src="../assets/js/img.action.js"></script>
+    <script src="../assets/js/home.button.action.js"></script>
+    <script src="../assets/js/home.img.action.js"></script>
 
 </body>
 </html>

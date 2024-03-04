@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+    .foot-btn {
+        width: 50%;
+        margin-inline: auto;
+        margin-top: 5px;
+    }
+}
+
+.footer-container {
+    margin: 5px 0; /* 5px top and bottom, 0 for left and right */
+}
+
+.footer-copyright {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    justify-content: center;
+}
+
+.footer-copyright img {
+    background-color: rgba(229, 243, 255, 0.151);
+    border-radius: 50%;
+}
+
+.footer-copyright p {
+    display: grid;
+    place-content: center;
+}
+
+.picture-bg-container-footer {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin-top: 10px;
+    padding: 20px;
+    height: 100%;
+}

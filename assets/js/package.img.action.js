@@ -1,4 +1,4 @@
-var swiper = new Swiper(".slide-content", {
+var swiper = new Swiper(".package-swiper", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -10,21 +10,17 @@ var swiper = new Swiper(".slide-content", {
     disableOnInteraction: false, // Allow manual navigation to stop autoplay
   },
   breakpoints: {
-    "@0.00": {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
-    "@0.75": {
+    640: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    "@1.00": {
-      slidesPerView: 3,
+    768: {
+      slidesPerView: 4,
       spaceBetween: 40,
     },
-    "@1.50": {
-      slidesPerView: 4,
+    1024: {
+      slidesPerView: 5,
       spaceBetween: 50,
     },
-  }
+  },
 });
